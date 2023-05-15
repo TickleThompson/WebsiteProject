@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <div class="linkSettings">
+      <p>
+        <a class="nav" href="index.html">Home</a>
+        <a class="nav" href="about.html">About</a>
+        <a class="nav-select" href="quiz.html">Quiz</a>
+      </p>
+    </div>
+    <!-- PAGE TITLE & CONTENT -->
+    <div class="QuizContent">
+      <h1>Volleyball Quiz</h1>
+      <div class="QuizSubContent">
+        <hr />
+        <p class="bold">Question 1:</p>
+        <p>How many <strong>positions</strong> are in volleyball?</p>
+        <p>Answer: <input id="Ans-1" /> <span id="feedback-1"></span></p>
+        <hr />
+        <p class="bold">Question 2:</p>
+        <p>
+          Which player can only play in the <strong>back row</strong> and wears
+          a <strong>different colored</strong> shirt?
+        </p>
+        <p>Answer: <input id="Ans-2" /> <span id="feedback-2"></span></p>
+        <hr />
+        <p class="bold">Question 3:</p>
+        <p>
+          Who is the <strong>lead attacker</strong> in the offensive strategy?
+        </p>
+        <p>Answer: <input id="Ans-3" /> <span id="feedback-3"></span></p>
+        <hr />
+        <p class="bold">Question 4:</p>
+        <p>Which player is generally the <strong>tallest</strong>?</p>
+        <p>Answer: <input id="Ans-4" /> <span id="feedback-4"></span></p>
+        <hr />
+      </div>
+      <button id="score-btn">Check Score</button>
+      <br />
+      <br />
+      <div class="testScore">
+        <p>
+          Your Score:
+          <span id="markscore"></span> <span id="percentage"></span>
+        </p>
+        <p><span id="encouragement">---</span></p>
+      </div>
+    </div>
+  </body>
+</html>
