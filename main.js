@@ -99,9 +99,9 @@ function btnClicked() {
 
   // percentage calculator
 
-  let percentage = (score / 4) * 100;
+  let percentageTwo = (score / 4) * 100;
 
-  percentage.innerHTML = `(${percentage})%`;
+  percentage.innerHTML = `(${percentageTwo})%`;
 
   // Quiz marks
 
